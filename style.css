@@ -1,0 +1,150 @@
+body {
+    font-family: 'Archivo', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    box-sizing: inherit;
+    padding: 0 16px;
+    margin: 0 auto;
+    z-index: 5;
+    position: absolute;
+    top: 96px;
+    left: 0;
+    background-color: rgb(24, 24, 24);
+    color: rgb(200, 200, 200);
+}
+
+
+.headline {
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    box-sizing: inherit;
+    clear: both;
+    margin: 0 0 1.5em;
+    padding: 0;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 96px;
+    letter-spacing: 4px;
+    margin-bottom: 19px;
+    opacity: 1;
+    transition: all 1s ease 0.2s;
+    background: -webkit-linear-gradient(#ff7365, #fa4b39);
+    -webkit-background-clip: text;
+    background-clip: text;  /* Add this line */
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+h2 {
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    box-sizing: inherit;
+    clear: both;
+    padding: 0;
+    color: #EDEFF8;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    max-width: 863px;
+    width: 100%;
+    margin: 0 auto 32px;
+}
+
+.total-sales-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    background: linear-gradient(261.71deg, #3A3845 13.92%, #2C2A36 84.19%);
+    border-radius: 12px;
+    color: #EDEFF8;  
+    padding: 16px 20px;
+    position: relative;
+    margin: 0 0 30px;
+    border: 2px solid #76768D;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease-in-out; 
+}
+
+.card:hover {
+    border-color: white;
+}
+
+.card-header {
+    font-family: Archivo, sans-serif;
+    font-weight: 600;  /* Based on --weight-header2 */
+    font-size: 18px;  /* Based on --size-header2 */
+    line-height: 24px;  /* Based on --lineHeight-header2 */
+    color: #FFFFFF;  /* Based on --col-accents */
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.card-body {
+    font-size: 1rem;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 14px;  /* Change font size */
+    color: #EDEFF8;  /* Change color */
+    line-height: 20px;  /* Change line height */
+    /* Add additional styles as needed */
+}
+
+
+.card .dcc_graph {
+    margin-top: 15px;
+}
+
+
+.total-sales-text {
+    font-size: 16px;  /* Change font size */
+    color: #EDEFF8;  /* Change color */
+    line-height: 22px;  /* Change line height */
+    /* Add additional styles as needed */
+}
+
+
+#total-sales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.sort-by-sales .Select-control {
+    font-family: Archivo,sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 24px;
+    padding: 12px 29px;
+    background: linear-gradient(245.55deg,#EF8F85 0%,#E33A2F 99.1%);
+    border-radius: 2px;
+    border: 0px solid black;
+    text-align: center;
+    width: 300px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.sort-by-sales .Select-control:hover {
+    box-shadow: 0 0 20px #E33A2F;
+}
